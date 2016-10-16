@@ -1,0 +1,46 @@
+.savage {
+width: 500px;
+height:500px;
+position:absolute;
+z-index: 3;
+}
+
+.title{
+display: block;
+height: 40%;
+width: 40%;
+margin-left: auto;
+margin-right: auto;
+z-index: 2;
+}
+
+.tweet{
+position: absolute;
+height: 50px;
+width: 300px;
+background-color: #4099FF;
+border-radius: 10px;
+z-index: 1;
+}
+
+.divbody{
+  position: absolute;
+  top: 20%;
+}
+
+.timestamp {
+  font-style: italic;
+  font-size: 10px;
+}
+
+body {
+font-family: verdana;
+color: white;
+font-size: 14px;
+background-color: grey;
+overflow: hidden;
+}
+
+a {
+color: white;
+}
